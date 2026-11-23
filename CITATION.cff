@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and link to https://prismaticalgos.com."
+type: dataset
+title: "State of Retail Trading Algorithms 2026"
+abstract: >-
+  Aggregate statistics from a review of 12,715 publicly documented retail
+  trading algorithms: strategy-family distribution, technical-indicator
+  crowding, documented risk-control gaps (stop-loss, take-profit, position
+  sizing, unbounded grid/martingale) and evidence quality (Sharpe reporting,
+  sample size, out-of-sample testing).
+authors:
+  - name: "Prismatic Algos"
+    website: "https://prismaticalgos.com"
+version: "1.0.0"
+date-released: "2026-11-23"
+license: CC-BY-4.0
+url: "https://prismaticalgos.com"
+repository-code: "https://github.com/OWNER/state-of-retail-trading-algos-2026"
+keywords:
+  - algorithmic trading
+  - retail trading
+  - expert advisors
+  - trading bots
+  - backtesting
+  - risk management
+  - technical indicators
+  - benchmark
+  - dataset

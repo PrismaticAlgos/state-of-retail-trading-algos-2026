@@ -1,0 +1,117 @@
+{
+  "name": "state-of-retail-trading-algos-2026",
+  "title": "State of Retail Trading Algorithms 2026",
+  "description": "Aggregate statistics from Prismatic Algos' review of 12,715 publicly documented retail trading algorithms: strategy families, indicator crowding, documented risk-control gaps and evidence quality. Aggregates only; no strategy text or code.",
+  "version": "1.0.0",
+  "created": "2026-11-23",
+  "homepage": "https://prismaticalgos.com",
+  "keywords": ["algorithmic trading", "retail trading", "expert advisors", "trading bots", "risk management", "technical indicators", "benchmark"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    { "title": "Prismatic Algos", "path": "https://prismaticalgos.com", "role": "author" }
+  ],
+  "resources": [
+    {
+      "name": "summary_metrics",
+      "path": "data/summary_metrics.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "description": "Headline KPIs: sample size, risk-control and evidence percentages, family shares."
+    },
+    {
+      "name": "family_distribution",
+      "path": "data/family_distribution.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "family", "type": "string" },
+          { "name": "count", "type": "integer" },
+          { "name": "pct", "type": "number", "description": "Percent of all strategies" }
+        ],
+        "primaryKey": ["family"]
+      }
+    },
+    {
+      "name": "indicator_crowding",
+      "path": "data/indicator_crowding.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "rank", "type": "integer" },
+          { "name": "indicator", "type": "string" },
+          { "name": "strategies_mentioning", "type": "integer" },
+          { "name": "pct_of_all", "type": "number" },
+          { "name": "pct_of_indicator_users", "type": "number", "description": "Percent of strategies naming at least one indicator" }
+        ],
+        "primaryKey": ["indicator"]
+      }
+    },
+    {
+      "name": "risk_control_gaps",
+      "path": "data/risk_control_gaps.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "family", "type": "string", "description": "ALL or a strategy family" },
+          { "name": "control", "type": "string" },
+          { "name": "n", "type": "integer", "description": "Strategies in the group" },
+          { "name": "count", "type": "integer" },
+          { "name": "pct", "type": "number" }
+        ],
+        "primaryKey": ["family", "control"]
+      }
+    },
+    {
+      "name": "timeframe_asset_matrix",
+      "path": "data/timeframe_asset_matrix.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "timeframe", "type": "string" },
+          { "name": "Gold/Metals", "type": "integer" },
+          { "name": "Crypto", "type": "integer" },
+          { "name": "Indices", "type": "integer" },
+          { "name": "Energy", "type": "integer" },
+          { "name": "Stocks", "type": "integer" },
+          { "name": "FX", "type": "integer" },
+          { "name": "Unspecified", "type": "integer" },
+          { "name": "total", "type": "integer" }
+        ],
+        "primaryKey": ["timeframe"]
+      }
+    },
+    {
+      "name": "schema_sample",
+      "path": "data/schema_sample.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "50 anonymised rows of classification flags only (salted-hash IDs, no text).",
+      "schema": {
+        "fields": [
+          { "name": "row_id", "type": "string" },
+          { "name": "family", "type": "string" },
+          { "name": "timeframe", "type": "string" },
+          { "name": "asset", "type": "string" },
+          { "name": "n_indicators", "type": "integer" },
+          { "name": "stop_loss", "type": "integer" },
+          { "name": "take_profit", "type": "integer" },
+          { "name": "position_sizing", "type": "integer" },
+          { "name": "unbounded_grid_martingale", "type": "integer" },
+          { "name": "sharpe", "type": "integer" },
+          { "name": "oos", "type": "integer" },
+          { "name": "trade_count_bucket", "type": "string" }
+        ]
+      }
+    }
+  ]
+}
