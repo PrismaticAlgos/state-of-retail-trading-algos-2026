@@ -1,0 +1,14 @@
+# Raw third-party payload: NEVER commit
+raw/
+*strategies*.json
+*strategies*.jsonl
+# Proprietary / platform files: never belong in this repo
+*.mq5
+*.mq4
+*.ex5
+*.ex4
+*.set
+# Python
+__pycache__/
+*.pyc
+.venv/
