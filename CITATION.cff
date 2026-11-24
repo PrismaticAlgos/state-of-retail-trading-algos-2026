@@ -15,7 +15,7 @@ version: "1.0.0"
 date-released: "2026-11-23"
 license: CC-BY-4.0
 url: "https://prismaticalgos.com"
-repository-code: "https://github.com/OWNER/state-of-retail-trading-algos-2026"
+repository-code: "https://github.com/PrismaticAlgos/state-of-retail-trading-algos-2026"
 keywords:
   - algorithmic trading
   - retail trading
