@@ -3,8 +3,8 @@ message: "If you use this dataset, please cite it as below and link to https://p
 type: dataset
 title: "State of Retail Trading Algorithms 2026"
 abstract: >-
-  Aggregate statistics from a review of 12,715 publicly documented retail
-  trading algorithms: strategy-family distribution, technical-indicator
+  Aggregate statistics from a review of 16,277 publicly documented retail
+  trading algorithms (snapshot 2026-11-14): strategy-family distribution, technical-indicator
   crowding, documented risk-control gaps (stop-loss, take-profit, position
   sizing, unbounded grid/martingale) and evidence quality (Sharpe reporting,
   sample size, out-of-sample testing).

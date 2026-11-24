@@ -1,0 +1,66 @@
+{
+  "title": "State of Retail Trading Algorithms 2026",
+  "publisher": "Prismatic Algos",
+  "snapshot_date": "2026-11-14",
+  "n_strategies": 16277,
+  "method": "keyword + structured-field classification of public documentation; see README#methodology",
+  "risk_controls_pct": {
+    "hard_stop_loss_documented": 67.18,
+    "hard_stop_loss_missing": 32.82,
+    "take_profit_documented": 57.69,
+    "position_sizing_documented": 65.65,
+    "grid_or_martingale_mentioned": 14.12,
+    "unbounded_grid_martingale_flag": 5.44
+  },
+  "evidence_pct": {
+    "reports_sharpe": 0.05,
+    "reports_sortino": 0.0,
+    "reports_profit_factor": 20.45,
+    "reports_max_drawdown": 21.59,
+    "mentions_out_of_sample_or_walk_forward": 14.86,
+    "claims_real_tick_backtest": 0.3,
+    "states_trade_count": 18.31,
+    "stated_trade_count_below_100": 2.81,
+    "stated_trade_count_below_100_pct_of_stated": 15.34
+  },
+  "evidence_type_pct": {
+    "claim_only": 40.0,
+    "backtest_shown": 22.81,
+    "source_code": 20.91,
+    "forward_results": 13.31,
+    "none": 2.21,
+    "other": 0.77
+  },
+  "specification_pct": {
+    "completeness_80_plus": 8.29,
+    "completeness_median": 50.0,
+    "source_code_captured": 6.16,
+    "entry_signal_warning": 3.54,
+    "performance_claim_warning": 21.95
+  },
+  "indicators": {
+    "pct_using_any_named_indicator": 72.51,
+    "top_5": [
+      "EMA",
+      "RSI",
+      "ATR",
+      "ADX/DMI",
+      "Bollinger Bands"
+    ]
+  },
+  "families_pct": {
+    "Trend Following & Directional": 27.7,
+    "Mean Reversion & Counter-Trend": 21.21,
+    "Grid, Martingale & Averaging": 7.27,
+    "Scalping & Short-Horizon": 1.7,
+    "Price Action & Market Structure": 7.82,
+    "Time, Session & Seasonality": 2.59,
+    "Volatility-Based": 0.79,
+    "Carry, Swap & Fundamental": 0.12,
+    "Statistical, Quantitative & ML": 1.66,
+    "Risk, Money Management & Portfolio Overlays": 5.66,
+    "Trade & Execution Management": 9.83,
+    "Confluence & Multi-Timeframe": 3.45,
+    "Unclassified": 10.2
+  }
+}

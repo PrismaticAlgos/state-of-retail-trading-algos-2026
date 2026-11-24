@@ -1,0 +1,21 @@
+rank,indicator,strategies_mentioning,pct_of_all,pct_of_indicator_users
+1,EMA,3350,20.58,28.39
+2,RSI,2600,15.97,22.03
+3,ATR,2556,15.7,21.66
+4,ADX/DMI,1242,7.63,10.52
+5,Bollinger Bands,1227,7.54,10.4
+6,Moving Average (unspecified),1152,7.08,9.76
+7,MACD,1072,6.59,9.08
+8,Stochastic,799,4.91,6.77
+9,SMA,771,4.74,6.53
+10,Supertrend,381,2.34,3.23
+11,CCI,361,2.22,3.06
+12,Pivot Points,308,1.89,2.61
+13,Heikin Ashi,239,1.47,2.03
+14,Parabolic SAR,224,1.38,1.9
+15,Ichimoku,223,1.37,1.89
+16,Fibonacci,217,1.33,1.84
+17,VWAP,203,1.25,1.72
+18,Donchian Channel,197,1.21,1.67
+19,Fractals,148,0.91,1.25
+20,Zigzag,144,0.88,1.22

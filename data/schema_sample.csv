@@ -1,0 +1,51 @@
+row_id,family,timeframe,asset,n_indicators,stop_loss,take_profit,position_sizing,unbounded_grid_martingale,sharpe,oos,trade_count_bucket
+9acfccaa82a9,Mean Reversion & Counter-Trend,M15,Gold/Metals,6,1,1,1,0,0,0,unstated
+aa180d9ec6fc,Price Action & Market Structure,M5,Gold/Metals,0,1,1,1,0,0,0,unstated
+11df6c5ff3ca,Mean Reversion & Counter-Trend,Multiple,Indices,2,0,1,1,1,0,0,unstated
+b41894e8dbd8,"Time, Session & Seasonality",M5,FX,0,1,1,1,0,0,0,unstated
+aef835211d74,Unclassified,Unspecified,Gold/Metals,1,1,1,0,0,0,0,100-999
+a545f7d2f6bc,Mean Reversion & Counter-Trend,M15,FX,2,0,0,1,0,0,0,100-999
+79f6481b834b,Trade & Execution Management,Unspecified,Unspecified,2,1,1,1,0,0,0,unstated
+03042635c06b,Trend Following & Directional,Unspecified,Unspecified,2,1,1,0,0,0,0,unstated
+9dd6dd7ad780,Unclassified,H4,FX,1,0,0,0,0,0,1,unstated
+5272952b0be9,"Risk, Money Management & Portfolio Overlays",Multiple,Gold/Metals,0,1,0,1,0,0,0,unstated
+d768b66510ef,"Risk, Money Management & Portfolio Overlays",H1,FX,0,1,0,1,0,0,0,100-999
+c2a03dd6e11e,Trade & Execution Management,M15,Unspecified,1,1,1,1,0,0,0,unstated
+8ae1ea327d4b,Price Action & Market Structure,Multiple,FX,2,0,0,1,0,0,0,unstated
+a238345f0ff5,Mean Reversion & Counter-Trend,H4,FX,4,0,0,0,0,0,0,unstated
+9e6e2a762401,Unclassified,H4,FX,1,0,0,0,0,0,0,unstated
+4d4eac9bae60,"Risk, Money Management & Portfolio Overlays",Unspecified,Indices,0,0,0,1,0,0,0,unstated
+03e5e4f92033,Mean Reversion & Counter-Trend,D1,Unspecified,10,1,0,0,0,0,0,unstated
+29f5bf58d34c,Trade & Execution Management,Unspecified,FX,0,0,0,0,0,0,0,unstated
+c4d90a13b33b,Trend Following & Directional,Unspecified,Unspecified,4,0,0,0,0,0,0,unstated
+c36a1d1ed850,Mean Reversion & Counter-Trend,Unspecified,Unspecified,1,0,0,1,0,0,0,unstated
+76f7690bed22,Price Action & Market Structure,Unspecified,Unspecified,0,1,1,0,0,0,0,unstated
+140594144c3a,Price Action & Market Structure,Multiple,Gold/Metals,1,1,1,1,0,0,0,unstated
+db8c9fa646a3,Trade & Execution Management,Unspecified,Crypto,1,1,1,1,0,0,0,unstated
+23fed816caac,"Risk, Money Management & Portfolio Overlays",Multiple,Gold/Metals,0,1,1,1,0,0,0,unstated
+2231c7fcfd0a,Mean Reversion & Counter-Trend,Multiple,Unspecified,2,0,0,0,0,0,0,unstated
+fa9ab88258a3,Trend Following & Directional,M5,Gold/Metals,0,1,1,1,0,0,0,unstated
+b17c4de5bf15,"Risk, Money Management & Portfolio Overlays",Unspecified,FX,1,1,1,1,0,0,0,100-999
+266d2df05f2e,"Grid, Martingale & Averaging",Unspecified,Indices,1,0,0,1,1,0,0,1000+
+aab81d171a18,Unclassified,M30,Gold/Metals,1,1,1,1,0,0,0,unstated
+f5ac9d05ae96,Unclassified,M5,FX,0,1,1,1,0,0,1,100-999
+22e81510263f,Volatility-Based,Unspecified,Gold/Metals,1,1,1,1,0,0,0,unstated
+e45ced40412d,Trade & Execution Management,M5,Gold/Metals,0,1,1,1,0,0,1,<100
+d1cab0bee7a2,Mean Reversion & Counter-Trend,Unspecified,Unspecified,2,1,1,1,0,0,0,unstated
+921c81e54b36,Trade & Execution Management,Unspecified,Gold/Metals,1,1,1,1,0,0,0,unstated
+a8ab8bbca678,Trend Following & Directional,M15,FX,1,1,0,1,0,0,0,unstated
+1724b1ca6539,Mean Reversion & Counter-Trend,Multiple,Gold/Metals,2,0,0,1,0,0,0,unstated
+f435212091b1,Mean Reversion & Counter-Trend,Multiple,Indices,1,1,1,0,0,0,0,unstated
+f17a4de1d4e8,Trend Following & Directional,Unspecified,Unspecified,1,1,1,1,0,0,0,unstated
+dcdcf1a5c6f7,"Grid, Martingale & Averaging",M1,Gold/Metals,0,1,1,1,0,0,1,100-999
+387ed22841b9,Mean Reversion & Counter-Trend,Unspecified,Gold/Metals,1,0,0,1,1,0,0,unstated
+3ce9d2947767,Unclassified,Unspecified,Unspecified,1,0,0,0,0,0,0,unstated
+11e555e20feb,Confluence & Multi-Timeframe,H1,Unspecified,1,1,1,0,0,0,0,unstated
+56fd23da8152,Mean Reversion & Counter-Trend,H1,Unspecified,2,1,1,0,0,0,0,unstated
+fd43c02f3f64,Unclassified,Unspecified,Unspecified,1,0,0,1,0,0,0,unstated
+fad26eff17b9,Mean Reversion & Counter-Trend,Multiple,Unspecified,3,1,1,0,0,0,0,unstated
+e717811747f6,Price Action & Market Structure,M30,Unspecified,1,1,1,0,0,0,0,unstated
+de1e5a622bbc,Price Action & Market Structure,Multiple,FX,2,1,0,0,0,0,0,unstated
+42bb22ebdccd,Trade & Execution Management,D1,Unspecified,0,1,1,1,0,0,0,unstated
+b5a13ecd7bc4,Trend Following & Directional,M5,FX,2,0,0,0,0,0,1,1000+
+040e4643ee49,Trend Following & Directional,Multiple,Unspecified,4,1,1,0,0,0,0,unstated
