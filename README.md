@@ -72,4 +72,4 @@ The script reads the structured corpus format described above. For any other JSO
 
 ## License
 
-Data and documentation: [CC BY 4.0](LICENSE). Reuse is free, including commercially, **with attribution and a link to [PrismaticAlgos.com](https://prismaticalgos.com)**.
+Data and documentation: [CC BY 4.0](LICENSE). Attribution terms: [`NOTICE`](NOTICE). Reuse is free, including commercially, **with attribution and a link to [PrismaticAlgos.com](https://prismaticalgos.com)**.
