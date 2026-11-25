@@ -1,0 +1,25 @@
+{
+  "title": "State of Retail Trading Algorithms 2026",
+  "upload_type": "dataset",
+  "description": "<p>Aggregate statistics from Prismatic Algos' review of 16,277 publicly documented retail trading algorithms (snapshot 2026-11-14): strategy-family distribution, technical-indicator crowding, documented risk-control gaps (stop-loss, take-profit, position sizing, unbounded grid/martingale) and evidence quality (Sharpe reporting, sample size, out-of-sample testing). Aggregates only; no strategy text or code.</p><p>Reuse requires attribution and a link to <a href=\"https://prismaticalgos.com\">https://prismaticalgos.com</a>.</p>",
+  "creators": [
+    { "name": "Prismatic Algos" }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": [
+    "algorithmic trading",
+    "retail trading",
+    "expert advisors",
+    "trading bots",
+    "backtesting",
+    "risk management",
+    "technical indicators",
+    "benchmark",
+    "dataset"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://prismaticalgos.com", "relation": "isDocumentedBy", "resource_type": "other" }
+  ]
+}
